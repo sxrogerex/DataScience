@@ -3,6 +3,7 @@ shinyUI(
   navbarPage(
     title = "105356002 final project",
   tabPanel('Data', 
+           titlePanel("279 rows from online questionnaire"),
            tableOutput("data")),
   tabPanel('Visualize Data',  
            plotOutput("willPay"),
