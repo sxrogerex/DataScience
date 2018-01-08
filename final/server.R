@@ -2,7 +2,11 @@
 library(shiny)
 library('ggplot2') #visualization
 library('ggthemes') # visualization
-library('gridExtra')
+library('gridExtra') # visualization
+library('grid') # visualization
+library("Hmisc") # correlation
+library("reshape2") # correlation
+
 #read file
 data <- read.csv("data.csv", header = T, stringsAsFactors = F)
 

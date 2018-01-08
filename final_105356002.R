@@ -1,7 +1,10 @@
 # Load packages
 library('ggplot2') #visualization
 library('ggthemes') # visualization
-library('gridExtra')
+library('gridExtra') # visualization
+library('grid') # visualization
+library("Hmisc") # correlation
+library("reshape2") # correlation
 
 set.seed(101)
 
